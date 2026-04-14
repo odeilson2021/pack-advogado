@@ -1,9 +1,29 @@
 {
-  "version": "1.0.0",
-  "build": 1,
-  "releaseDate": "2026-04-13",
+  "version": "1.1.0",
+  "build": 2,
+  "releaseDate": "2026-04-14",
   "checksum": "",
-  "changes": [],
-  "newVersion": null,
-  "_info": "Pack inicial - sistema v1.0.0"
+  "changes": [
+    {
+      "type": "file-create",
+      "file": "build-server.js",
+      "content": "Script de build do servidor com esbuild"
+    },
+    {
+      "type": "file-create",
+      "file": "server.js",
+      "content": "Entry point para produção"
+    },
+    {
+      "type": "file-create",
+      "file": "tsconfig.server.json",
+      "content": "Configuração TypeScript para servidor"
+    }
+  ],
+  "newVersion": {
+    "version": "1.1.0",
+    "build": 2,
+    "releaseDate": "2026-04-14"
+  },
+  "_info": "Correção de build para produção"
 }

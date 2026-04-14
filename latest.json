@@ -1,10 +1,30 @@
 {
-  "version": "1.0.0",
-  "build": 1,
-  "releaseDate": "2026-04-13",
+  "version": "1.1.0",
+  "build": 2,
+  "releaseDate": "2026-04-14",
   "packUrl": "https://raw.githubusercontent.com/odeilson2021/pack-advogado/main/pack.json",
   "checksum": "",
-  "changes": [],
-  "newVersion": null,
-  "_info": "Latest pack - sistema v1.0.0"
+  "changes": [
+    {
+      "type": "file-create",
+      "file": "build-server.js",
+      "content": "Script de build do servidor com esbuild"
+    },
+    {
+      "type": "file-create",
+      "file": "server.js",
+      "content": "Entry point para produção"
+    },
+    {
+      "type": "file-create",
+      "file": "tsconfig.server.json",
+      "content": "Configuração TypeScript para servidor"
+    }
+  ],
+  "newVersion": {
+    "version": "1.1.0",
+    "build": 2,
+    "releaseDate": "2026-04-14"
+  },
+  "_info": "Latest pack - correção de build para produção"
 }
